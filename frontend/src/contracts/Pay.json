@@ -6,7 +6,8 @@
       "name": "payEther",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [],
@@ -19,7 +20,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"payEther\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Pay.sol.sol\":\"Pay\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Pay.sol.sol\":{\"keccak256\":\"0x78b5fb1a396c60113e8952d9b8952d4fdab898e34a1a9a44be62de8897ded88f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bc02785c3261c95991d53b351eb643d383deb8c11d2df8c3bb42bffc0e00a6e1\",\"dweb:/ipfs/QmbaGbMQRFeSwnzn9Vs3XS5SYTRNX1JfwYxELNvS7rVrZF\"]}},\"version\":1}",
@@ -481,9 +483,17 @@
     "name": "solc",
     "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xAE81bD77a4df7F87BC413223c6418121211Cba8e",
+      "transactionHash": "0x1df9618fb3f5209d8712017d9d7c18b0f577edea3b500118c87437cf5e8a4a38"
+    }
+  },
   "schemaVersion": "3.4.13",
-  "updatedAt": "2023-06-23T09:31:59.076Z",
+  "updatedAt": "2023-06-23T09:39:32.674Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
